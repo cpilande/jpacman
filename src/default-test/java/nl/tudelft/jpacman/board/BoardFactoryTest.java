@@ -91,4 +91,5 @@ class BoardFactoryTest {
         assertThat(s1.getSquareAt(Direction.SOUTH)).isEqualTo(s2);
         assertThat(s2.getSquareAt(Direction.SOUTH)).isEqualTo(s1);
     }
+
 }
